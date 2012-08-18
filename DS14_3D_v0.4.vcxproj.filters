@@ -36,6 +36,54 @@
     <ClCompile Include="DS14_3D_Graph.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="3DS.CPP">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dColorValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dDegRad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dLight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dLightWrapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dQuaternion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dRenderSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dRenderWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dSceneManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dSceneNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dSubMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dVector3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="g3dViewport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DS14_3D.h">
@@ -59,6 +107,75 @@
     <ClInclude Include="DS14_3D_Graph.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="3DS.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dBasicHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dCamera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dColorValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dDegRad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dLight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dLightWrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dMatrix3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dQuaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dRenderSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dRenderWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dSceneManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dSceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dSubMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dVector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="g3dViewport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GL.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLEXT.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLU.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUT.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WGLEXT.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="DS14_3D.cfg">
@@ -68,6 +185,12 @@
       <Filter>资源文件</Filter>
     </None>
     <None Include="example.rep">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="FACE.3DS">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="FACE.BMP">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>

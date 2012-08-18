@@ -54,7 +54,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_mixer.lib;opengl32.lib;gltools.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL.lib;SDLmain.lib;SDL_mixer.lib;opengl32.lib;gltools.lib;glu.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -75,15 +75,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="3DS.CPP" />
     <ClCompile Include="DS14_3D.cpp" />
     <ClCompile Include="DS14_3D_Audio.cpp" />
     <ClCompile Include="DS14_3D_Config.cpp" />
     <ClCompile Include="DS14_3D_Graph.cpp" />
     <ClCompile Include="DS14_3D_Input.cpp" />
     <ClCompile Include="DS14_3D_Timer.cpp" />
+    <ClCompile Include="g3dCamera.cpp" />
+    <ClCompile Include="g3dColorValue.cpp" />
+    <ClCompile Include="g3dDegRad.cpp" />
+    <ClCompile Include="g3dLight.cpp" />
+    <ClCompile Include="g3dLightWrapper.cpp" />
+    <ClCompile Include="g3dMesh.cpp" />
+    <ClCompile Include="g3dModel.cpp" />
+    <ClCompile Include="g3dQuaternion.cpp" />
+    <ClCompile Include="g3dRenderSystem.cpp" />
+    <ClCompile Include="g3dRenderWindow.cpp" />
+    <ClCompile Include="g3dSceneManager.cpp" />
+    <ClCompile Include="g3dSceneNode.cpp" />
+    <ClCompile Include="g3dSubMesh.cpp" />
+    <ClCompile Include="g3dVector3.cpp" />
+    <ClCompile Include="g3dViewport.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="3DS.H" />
     <ClInclude Include="DS14_3D.h" />
     <ClInclude Include="DS14_3D_Audio.h" />
     <ClInclude Include="DS14_3D_Config.h" />
@@ -91,10 +108,34 @@
     <ClInclude Include="DS14_3D_Graph.h" />
     <ClInclude Include="DS14_3D_Input.h" />
     <ClInclude Include="DS14_3D_Timer.h" />
+    <ClInclude Include="g3dBasicHeader.h" />
+    <ClInclude Include="g3dCamera.h" />
+    <ClInclude Include="g3dColorValue.h" />
+    <ClInclude Include="g3dDegRad.h" />
+    <ClInclude Include="g3dLight.h" />
+    <ClInclude Include="g3dLightWrapper.h" />
+    <ClInclude Include="g3dMatrix3.h" />
+    <ClInclude Include="g3dMesh.h" />
+    <ClInclude Include="g3dModel.h" />
+    <ClInclude Include="g3dQuaternion.h" />
+    <ClInclude Include="g3dRenderSystem.h" />
+    <ClInclude Include="g3dRenderWindow.h" />
+    <ClInclude Include="g3dSceneManager.h" />
+    <ClInclude Include="g3dSceneNode.h" />
+    <ClInclude Include="g3dSubMesh.h" />
+    <ClInclude Include="g3dVector3.h" />
+    <ClInclude Include="g3dViewport.h" />
+    <ClInclude Include="GL.H" />
+    <ClInclude Include="GLEXT.H" />
+    <ClInclude Include="GLU.H" />
+    <ClInclude Include="GLUT.H" />
+    <ClInclude Include="WGLEXT.H" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DS14_3D.cfg" />
     <None Include="example.rep" />
+    <None Include="FACE.3DS" />
+    <None Include="FACE.BMP" />
     <None Include="ReplayFileName.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
